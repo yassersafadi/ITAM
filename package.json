@@ -1,0 +1,17 @@
+{
+  "name": "itam",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ITAM - open-source IT asset management: front-end TypeScript sources",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/copy-vendor.mjs",
+    "watch": "tsc -p tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "qrcode-generator": "^1.4.4"
+  }
+}

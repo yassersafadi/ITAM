@@ -1,0 +1,8 @@
+# Dependencies and the server's own files: never committed.
+node_modules/
+config/local.php
+public/assets/uploads/
+storage/*
+!storage/.gitkeep
+# Planning notes for this repository's owner, not part of the product.
+docs/proposal/
